@@ -30,13 +30,13 @@ int main()
     printf("\n=== Welcome to TIC - TAC - TOE Game! ===\n");
     printf("\n<-- Programmed by Joycodz -->\n");
     printf("\nDo you know the rules?\n");
-    printf("If you don't know the rules then enter 1 to skip this press any key.\n-> ");
+    printf("If you don't know the rules then enter 1 to skip this press any key.\n");
     fflush(stdin);
     scanf("%d", &rule);
     if (rule == 1) // Rules of the game
     {
         printf("The rules are very simple.\n");
-        printf("Who ever match three moves row wise or column wise or diagonally he/she wins.\n-> Otherwise it's a Draw.\n");
+        printf("Who ever match three moves row wise or column wise or diagonally he/she wins.\nOtherwise it's a Draw.\n");
         printf("\n<-> Please look carefully at the following board and choose your move position according to the given numbers <->\n");
         show_board();
     }

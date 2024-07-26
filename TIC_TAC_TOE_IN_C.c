@@ -40,7 +40,7 @@ int main()
         printf("\n<-> Please look carefully at the following board and choose your move position according to the given numbers <->\n");
         show_board();
     }
-    printf("\n< Let's start the game. >\n"); // Game started
+    printf("\n<--Let's start the game-->\n"); // Game started
     fflush(stdin);
     printf("\nPlease enter your name : "); // Taking the name of the player
     scanf("%s", &player_name);             // You can also use gets(player_name); and fgets(player_name, 30, stdin);;
